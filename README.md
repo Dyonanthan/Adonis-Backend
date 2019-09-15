@@ -1,4 +1,4 @@
-[TOC]
+
 # Introdução
 Este é um projeto limpo desenvolvido com a framework AdonisJS onde possuí autenticação, controle dos usuários.
 
@@ -15,8 +15,8 @@ adonis serve --dev
 
 
 # Autenticação
-###Login
- ***O login é feito pelo usuário e senha, podendo ser trocada pelo e-mail em:***
+## Login
+ **O login é feito pelo usuário e senha, podendo ser trocada pelo e-mail em:**
  >config -> auth.js
 
 ```javascript 
@@ -33,8 +33,8 @@ jwt: {
 ```
 
 
-##Registro
-***É possível fazer o registro de: e-mail, usuário, primeiro nome, último nome e senha. Podendo ser alterada em:***
+## Registro
+**É possível fazer o registro de: e-mail, usuário, primeiro nome, último nome e senha. Podendo ser alterada em:**
 >database -> migrations -> user.js
 ```javascript
     this.create('users', (table) => {
